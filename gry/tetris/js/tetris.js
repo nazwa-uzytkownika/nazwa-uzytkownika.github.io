@@ -159,6 +159,15 @@ function keyPress( key ) {
     }
 }
 
+bl.onmousedown=function() {--currentX}
+bl.ontouchstart=function() {--currentX}
+bl.onmouseup=function() {}
+bl.ontouchend=function() {}
+bp.onmousedown=function() {}
+bp.ontouchstart=function() {}
+bp.onmouseup=function() {}
+bp.ontouchend=function() {}
+
 // checks if the resulting position of current shape will be feasible
 function valid( offsetX, offsetY, newCurrent ) {
     offsetX = offsetX || 0;
