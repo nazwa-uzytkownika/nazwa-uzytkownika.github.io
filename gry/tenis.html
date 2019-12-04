@@ -49,7 +49,7 @@ bl.onmousedown=function() {leftPressed = true;}
 bl.onmouseup=function() {leftPressed = false;}
 bp.onmousedown=function() {rightPressed = true;}
 bp.onmouseup=function() {rightPressed = false;}
-document.addEventListener("mousemove", mouseMoveHandler, false);
+//document.addEventListener("mousemove", mouseMoveHandler, false);
 function mouseMoveHandler(e) {
     var relativeX = e.clientX - canvas.offsetLeft;
     if(relativeX > 0 && relativeX < canvas.width) {
