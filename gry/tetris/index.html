@@ -3,11 +3,13 @@
     <head>
         <title>HTML5 Tetris</title>
         <link rel='stylesheet' href='style.css' />
+        <meta name="viewport" content="width=device-width, initial-scale=0.7, user-scalable=no">
     </head>
     <body>
         <audio id="clearsound" src="sound/pop.ogg" preload="auto"></audio>
         <canvas width='300' height='600'></canvas>
         <button id="playbutton" onclick="playButtonClicked();">Play</button>
+        <button id="bl"> < </button> <button id="bp"> > </button>
         <script src='js/tetris.js'></script>
         <script src='js/controller.js'></script>
         <script src='js/render.js'></script>
