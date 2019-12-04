@@ -7,6 +7,7 @@
  </head>
  <body>
 <canvas id="myCanvas" width="500" height="500" style="border: 1px solid;"></canvas>
+<br>
 <button id="bl">[<]</button>
 <script>
 var canvas = document.getElementById("myCanvas");
@@ -31,7 +32,8 @@ function keyDownHandler(e) {
         leftPressed = true;
     }
 }
-bl.onclick=function() {leftPressed = true;}
+bl.onmousedown=function() {leftPressed = true;}
+bl.onmouseup=function() {leftPressed = false;}
 function keyUpHandler(e) {
     if(e.key == "Right" || e.key == "ArrowRight") {
         rightPressed = false;
