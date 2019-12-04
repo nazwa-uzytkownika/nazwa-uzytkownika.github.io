@@ -3,7 +3,7 @@
  <head>
   <title>Przykład</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
 body {
 margin: auto; 
@@ -47,7 +47,9 @@ function keyUpHandler(e) {
     }
 }
 bl.onmousedown=function() {leftPressed = true;}
+bl.ontouchstart=function() {leftPressed = true;}
 bl.onmouseup=function() {leftPressed = false;}
+bl.ontouchend=function() {leftPressed = false;}
 bp.onmousedown=function() {rightPressed = true;}
 bp.onmouseup=function() {rightPressed = false;}
 //document.addEventListener("mousemove", mouseMoveHandler, false);
