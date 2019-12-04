@@ -159,7 +159,7 @@ function keyPress( key ) {
     }
 }
 
-bl.onmousedown=function() {--currentX}
+bl.onclick=function() {--currentX}
 bl.ontouchstart=function() {--currentX}
 bl.onmouseup=function() {}
 bl.ontouchend=function() {}
