@@ -163,8 +163,8 @@ bl.onmousedown=function() {--currentX}
 bl.ontouchstart=function() {--currentX}
 bl.onmouseup=function() {}
 bl.ontouchend=function() {}
-bp.onmousedown=function() {}
-bp.ontouchstart=function() {}
+bp.onmousedown=function() {++currentX}
+bp.ontouchstart=function() {++currentX}
 bp.onmouseup=function() {}
 bp.ontouchend=function() {}
 
