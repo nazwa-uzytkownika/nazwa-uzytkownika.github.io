@@ -1,0 +1,45 @@
+body {
+background: #99FFCC;
+}
+.kontener {
+width: 1000px;
+margin: auto;
+}
+header {
+background: #99ff66;
+height: 200px;
+}
+nav {
+background: #66ccff;
+text-align: center;
+padding: 20px 0px;
+}
+nav a {
+color: #006666;
+margin: 50px;
+font-size: 200%;
+text-decoration: none;
+}
+main {
+display: flex;
+}
+main section {
+width: 310px;
+padding: 10px;
+}
+footer {
+background: #66ccff;
+color: #006666;
+text-align: right;
+height: 30px;
+padding: 20px;
+}
+h2, h3 {
+text-align: center;
+}
+.reset {
+background: #ff0000
+}
+.submit {
+background: #00ff00
+}
