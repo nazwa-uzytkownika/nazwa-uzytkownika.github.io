@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+.carousel {
+  width: 90%;
+  overflow: hidden;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 2px solid #999;
+  box-shadow: 0 0 4px #000;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.holder {
+  animation: carousel 25s linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+}  
+.holder:hover {
+ animation-play-state: paused;
+}
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-80%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1><a href="index.html">Portfolio</a></h1>
+  </header>
+  <nav>
+<a href="index.html">INDEX</a>
+<a href="prace.html">PRACE</a>
+<a href="kontakt.html">KONTAKT</a>
+  </nav>
+  <main>
+  <div class="carousel">
+  <div class="holder">
+<a href="E.14-01-16.08/index.html" target="_blank"><img src="E.14-01-16.08.png" alt=""><br>E.14-01-16.08</a>
+<a href="E.14-05-18.01/index.html" target="_blank"><img src="E.14-05-18.01.png" alt=""><br>E.14-05-18.01</a>
+<a href="E.14-05-18.06/wesela.html" target="_blank"><img src="E.14-05-18.06.png" alt=""><br>E.14-05-18.06</a>
+<a href="E.14-06-17.06/index.html" target="_blank"><img src="E.14-06-17.06.png" alt=""><br>E.14-06-17.06</a>
+<a href="E.14-06-18.06/pizzeria.html" target="_blank"><img src="E.14-06-18.06.png" alt=""><br>E.14-06-18.06</a>
+  </div>
+  </div> 
+  </main>
+  <footer>
+   <p>Stronę opracował: RK</p>
+  </footer>
+ </body>
+</html>

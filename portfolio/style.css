@@ -1,0 +1,38 @@
+body {
+	max-width: 987px;
+	margin: auto;
+	color: blue;
+	font: 13px arial;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	text-align:center;
+}
+a:hover {
+	text-decoration: underline;
+	display: inline-block;
+}
+header {
+	background: ;
+	text-align:center;
+}
+header h1 {
+	font: 34px arial;
+}
+nav {
+	text-align:center;
+}
+main {
+	text-align:center;
+}
+main img {
+	width: 300px;
+	height: 250px;
+	object-fit: none;
+	border: 1px silver solid;
+}
+footer {
+	text-align:center;
+	font: 13px arial;
+}
