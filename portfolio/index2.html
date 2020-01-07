@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="HTML, WWW, CSS, technik, informatyk, kwalifikacja E.14.">
+  <meta name="description" content="Przykładowe portfolio technika informatyka">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+.carousel {
+  width: 90%;
+  overflow: hidden;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 2px solid #999;
+  box-shadow: 0 0 4px #000;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.holder {
+  animation: carousel 25s linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+}  
+.holder:hover {
+ animation-play-state: paused;
+}
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-80%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1><a href="index.html">Portfolio</a></h1>
+   <h2>technik informatyk</h2>
+  </header>
+  <nav>
+<a href="index.html">INDEX</a>
+<a href="#prace">PRACE</a>
+<a href="#kontakt">KONTAKT</a>
+  </nav>
+  <main>
+  <div class="carousel">
+  <div class="holder">
+<a href="E.14-01-16.08/index.html" target="_blank"><img src="E.14-01-16.08.png" alt="E.14-01-16.08"><br>E.14-01-16.08</a>
+<a href="E.14-05-18.01/index.html" target="_blank"><img src="E.14-05-18.01.png" alt="E.14-05-18.01"><br>E.14-05-18.01</a>
+<a href="E.14-05-18.06/wesela.html" target="_blank"><img src="E.14-05-18.06.png" alt="E.14-05-18.06"><br>E.14-05-18.06</a>
+<a href="E.14-06-17.06/index.html" target="_blank"><img src="E.14-06-17.06.png" alt="E.14-06-17.06.png"><br>E.14-06-17.06</a>
+<a href="E.14-06-18.06/pizzeria.html" target="_blank"><img src="E.14-06-18.06.png" alt="E.14-06-18.06"><br>E.14-06-18.06</a>
+  </div>
+  </div>
+   <p>Strona zawiera przykładowe portfolio ucznia technikum informatycznego jako załącznik do wpisu "Portfolio" na blogu Edycja stron pod adresem <a href="http://edycjastron.blogspot.com/2020/01/portfolio.html" target="_blank">http://edycjastron.blogspot.com/2020/01/portfolio.html</a></p>
+   <h2 id="prace">PRACE</h2>
+   <h2 id="kontakt">KONTAKT</h2>
+  </main>
+  <footer>
+   <p>Stronę opracował: Nazwa Użytkownika</p>
+  </footer>
+ </body>
+</html>
