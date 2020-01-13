@@ -1,0 +1,14 @@
+body {
+  width: 987px;
+  margin: auto;
+  font: 13px sans-serif;
+}
+a {
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: 1px solid silver;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
